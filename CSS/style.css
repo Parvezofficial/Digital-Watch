@@ -47,7 +47,7 @@
     height: 320px;
     display: block;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.215), -5px -5px 25px rgba(0, 0, 0, 0.125);
-    background-color: #3c6382;
+    background-color: #2c2c54;
     position: relative;
 }
 
@@ -156,6 +156,10 @@
 *::before,
 *::after {
     box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 body {
