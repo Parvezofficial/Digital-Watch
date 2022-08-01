@@ -12,5 +12,6 @@ function showCurrentTime(){
     hour.textContent= hr;
     minute.textContent= min;
     second.textContent= sec;
+    progress.style.width =(sec/60) * 100 + '%';
 }
 setInterval(showCurrentTime, 1000);
